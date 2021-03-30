@@ -1,9 +1,17 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Staatliches', cursive;
 }
-p {
+p, a {
     font-family: 'Bebas Neue', cursive;
     font-size: clamp(18px,2.5vw, 24px);
+}
+a {
+    color: #97be47;
+    text-decoration: none;;
+}
+a:hover {
+    color: #abff00;
+    text-decoration: none;
 }
 section {
     padding: 120px 0px;
@@ -123,9 +131,17 @@ section#skills {
 
 
 div#proj-info {
-    padding-top: 40px;
+    padding-top: 120px;
 }
-
+div#proj-info .cms {
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(20px,2.5vw, 24px);
+    color: #21b19b;
+}
+div#proj-info ul li {
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(18px,2.5vw, 24px);
+}
 section#contact {
     padding-top: 0px;
     margin-top: -60px;

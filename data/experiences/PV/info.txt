@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-sm-4 info-container">
         <h1>Project Name</h1>
-        <span class="cms">Magento 2 <i class="fab fa-magento"></i></span>
-        <a href="#">Project Link if available</a>
+        <p><span class="cms">Magento 2 <i class="fab fa-magento"></i></span></p>
+        <p><a href="#">Project Link if available</a></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p>Tech used:</p>
         <ul>
