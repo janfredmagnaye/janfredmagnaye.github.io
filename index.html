@@ -5,32 +5,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
 
     <title>Hello, world!</title>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="main row">
-      <div class="header-side col-sm-2 col-2">
+    <div class="main">
+      <div class="header-side">
         <div class="header-content">
           <div class="img-wrapper">
-            <img src="https://via.placeholder.com/150" class="logo-img" alt="" />
+            <spanmg src="https://via.placeholder.com/150" class="logo-img" alt="" />
           </div>
           <div class="info-wrapper">
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+            <p class="logo"><span class="fas fa-glasses"></span></p>
+            <h1>Lorem Ipsum</h1>
+            <ul class="social-media-links">
+              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="#"><span class="fab fa-github"></span></a></li>
+              <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="main-container col-sm-10 col-10">
+      <div class="main-container">
         <div class="float-navigation fixed-top">
           <nav class="navbar">
               <ul class="navbar-nav">
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#skills">Skills</a></li>
-                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#about">A</a></li>
+                <li><a class="nav-link" href="#skills">S</a></li>
+                <li><a class="nav-link" href="#experience">Ex</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
             </nav>
         </div>
@@ -38,7 +51,7 @@
           <div class="container">
             <div class="row justify-content-center align-items-center">
               <div class="col-md-12">
-                <h1>Hello World!</h1>
+                <h2>Hello World!</h2>
                 <p>Lorem ipsum</p>
               </div>
             </div>
@@ -52,38 +65,58 @@
                 <h2>Hello World!</h2>
                 <p>Lorem ipsum</p>
               </div>
-              <div class="col-md-12 content-wrap progress-bars">
+              <div class="col-md-6 cms-stuff content-wrap progress-bars">
+                <h3>CMS Stuff</h3>
                 <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
+                  <div class="progress-bar" style="width:85%;background-color: #21b19b;">WP</div>
                 </div>
                 <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
+                  <div class="progress-bar" style="width:75%;background-color: #7b51ad;">WC</div>
                 </div>
                 <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
+                  <div class="progress-bar" style="width:70%;background-color: #f46d3e;">M2</div>
                 </div>
                 <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
+                  <div class="progress-bar" style="width:40%;background-color: #f8a887;">M1</div>
                 </div>
                 <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" style="width:10%"></div>
+                  <div class="progress-bar" style="width:30%;background-color: #97be47;">S</div>
                 </div>
               </div>
+              <div class="col-md-6 front-end-stuff content-wrap progress-bars">
+                <h3>Front-End Stuff</h3>
+                <div class="progress">
+                  <div class="progress-bar" style="width:95%;background-color: #e44d26;">HTML5</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:85%;background-color: #1572b7;">CSS3/LESS</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:75%;background-color: rgb(214,186,50);">JS/JQuery</div>
+                </div>
+              </div>
+              <div class="col-md-6 back-end-stuff content-wrap progress-bars">
+                <h3>Back-End Stuff</h3>
+                <div class="progress">
+                  <div class="progress-bar" style="width:80%;background-color: #5967a4;">PHP</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:35%;background-color: #e48e00;">MySQL</div>
+                </div>
+              </div>
+              <div class="col-md-6 back-end-stuff content-wrap progress-bars">
+                <h3>Other Tools</h3>
+                <div class="progress">
+                  <div class="progress-bar" style="width:40%;background-color: #e84d31;">Git</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:30%;background-color: #2e001f;">AXD</div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width:20%;background-color: #001e36;">PS</div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>  
@@ -97,128 +130,9 @@
                 <p><small>Disclaimer:</small></p>
               </div>
               <div class="col-md-12 content-wrap">
-
-                <div class="experience-items">
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-
-                  <div class="exp-item">
-                    <div class="row align-items-center">
-                      <section class="col-md-6 exp-content">
-                        <h3>Hello World!</h3>
-                        <p>Lorem ipsum</p>
-                      </section>
-                      <section class="col-md-6 exp-img">
-                        <img src="https://via.placeholder.com/350x600" class="img-fluid" alt="" />
-                      </section>
-                    </div>
-                  </div>
-                  
+                <div id="demo">
+                  <h2>Let AJAX change this text</h2>
+                  <button type="button" onclick="loadDoc()">Change Content</button>
                 </div>
               </div>
             </div>
@@ -236,64 +150,47 @@
           </div>
         </section>
       </div>
+      
       <footer>
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-12 text-center">
-              <p>Made with using Github Pages</p>
+              <p>Made with ❤️ using Github Pages</p>
             </div>
           </div>
         </div>
       </footer>
     </div>
     <style>
-      section {
-        height: 100vh;
-      }
-      
 
-      .header-side .header-content {
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-.float-navigation.fixed-top {
-    left: unset;
-    width: 100%;
-    padding: 15px;
-    max-width: 600px;
-}
-.float-navigation.fixed-top .navbar .navbar-nav {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.progress-bars .progress {
-    margin: 20px 0px;
-}
-
-.experience-items .exp-item:nth-child(even) .exp-content {
-    order: 1;
-}
-
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 20px 15px;
-    z-index: 3;
-}
-footer p{
-  margin-bottom: 0px;
-}
     </style>
     <!-- Optional JavaScript -->
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $( document ).ready(function() {
+        $(".navbar-nav .nav-link").click(function() {
+          var linkHref =  $(this).attr('href');
+          $('html, body').animate({
+              scrollTop: $(linkHref).offset().top
+          }, 1000);
+        });
+      });
+      
+      function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("demo").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "./data/experiences/PV/info.txt", true);
+        xhttp.send();
+      }
+    </script>
+    
   </body>
 </html>

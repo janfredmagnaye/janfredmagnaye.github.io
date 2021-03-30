@@ -1,0 +1,108 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Staatliches', cursive;
+  }
+  p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(18px,2.5vw, 24px);
+  }
+  
+  section {
+    padding: 120px 0px;
+}
+    .main .container {
+        max-width: 1550px;
+    }
+  
+        .header-side {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 200px;
+      height: 100%;
+      z-index: 2;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+  }
+  .header-side p.logo {
+      font-size: 46px;
+      margin-bottom: 0px;
+  }
+  .header-side ul.social-media-links {
+      list-style: none;
+      padding-left: 0px;
+      margin-bottom: 0px;
+  }
+  
+  .header-side ul.social-media-links li {
+      display: inline-block;
+      margin: 10px;
+      font-size: 24px;
+  }
+  
+  .header-side ul.social-media-links li a {
+      color: #fff;
+  }
+  
+  
+  .main-container {
+      padding-left: 200px;
+      background-color: #111111;
+      color:#fff;
+  }
+  
+  .float-navigation.fixed-top {
+    z-index: 1;
+    left: unset;
+    width: 100%;
+    padding: 15px;
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+  .float-navigation.fixed-top .navbar {
+    max-width: 600px;
+    margin-left: auto;
+}
+  .float-navigation.fixed-top .navbar .navbar-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+  }
+  .float-navigation.fixed-top .navbar-nav .nav-link{
+    font-family: 'Staatliches', cursive;
+    font-size: clamp(20px,2.5vw, 24px);
+    color: #fff;
+  }
+  
+  .progress-bars .progress {
+    margin: 20px 0px;
+    height: 2.5rem;
+    font-size: 23px;
+    font-family: 'Bebas Neue';
+    border-radius: 0px;
+}
+
+  
+  .experience-items .exp-item:nth-child(even) .exp-content {
+      order: 1;
+  }
+  
+  
+  
+  footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #242323;
+      color: #fff;
+      padding: 20px 15px;
+      z-index: 3;
+  }
+  footer p{
+    margin-bottom: 0px;
+  }
+
+
+
+
+  
