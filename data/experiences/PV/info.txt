@@ -1,4 +1,10 @@
-<h1>AJAX</h1>
-<p>AJAX is not a programming language.</p>
-<p>AJAX is a technique for accessing web servers from a web page.</p>
-<p>AJAX stands for Asynchronous JavaScript And XML.</p>
+<h1>Project Name</h1>
+<a href="#">Project Link if available</a>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Tech used:</p>
+<ul>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+<li>Lorem ipsum</li>
+</ul>
