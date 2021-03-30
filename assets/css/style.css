@@ -1,57 +1,58 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Staatliches', cursive;
-  }
-  p{
+}
+p {
     font-family: 'Bebas Neue', cursive;
     font-size: clamp(18px,2.5vw, 24px);
-  }
-  
-  section {
+}
+section {
     padding: 120px 0px;
 }
-    .main .container {
-        max-width: 1550px;
-    }
-  
-        .header-side {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 200px;
-      height: 100%;
-      z-index: 2;
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-  }
-  .header-side p.logo {
-      font-size: 46px;
-      margin-bottom: 0px;
-  }
-  .header-side ul.social-media-links {
-      list-style: none;
-      padding-left: 0px;
-      margin-bottom: 0px;
-  }
-  
-  .header-side ul.social-media-links li {
-      display: inline-block;
-      margin: 10px;
-      font-size: 24px;
-  }
-  
-  .header-side ul.social-media-links li a {
-      color: #fff;
-  }
-  
-  
-  .main-container {
-      padding-left: 200px;
-      background-color: #111111;
-      color:#fff;
-  }
-  
-  .float-navigation.fixed-top {
+section h2{
+    font-size: clamp(70px, 2.5vh, 40px);
+}
+.main .container {
+    max-width: 1550px;
+}
+.header-side {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding-top: 20px;
+    z-index: 2;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 34%);
+}
+.header-side p.logo {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+.header-side ul.social-media-links {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #5b5b5b;
+}
+.header-side ul.social-media-links li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+}
+.header-side ul.social-media-links li a {
+    color: #fff;
+}
+.main-container {
+    padding-left: 200px;
+    background-color: #111111;
+    color:#fff;
+}
+.float-navigation.fixed-top {
     z-index: 1;
     left: unset;
     width: 100%;
@@ -59,22 +60,50 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 100%;
     background-color: rgba(0,0,0,0.5);
 }
-  .float-navigation.fixed-top .navbar {
+.float-navigation.fixed-top .navbar {
     max-width: 600px;
     margin-left: auto;
 }
-  .float-navigation.fixed-top .navbar .navbar-nav {
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
-  }
-  .float-navigation.fixed-top .navbar-nav .nav-link{
+.float-navigation.fixed-top .navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.float-navigation.fixed-top .navbar-nav .nav-link{
     font-family: 'Staatliches', cursive;
     font-size: clamp(20px,2.5vw, 24px);
     color: #fff;
-  }
-  
-  .progress-bars .progress {
+    transition: all 0.3s ease-in;
+}
+.float-navigation.fixed-top .navbar-nav .nav-link.active {
+    transform: scale(1.5);
+}
+.float-navigation.fixed-top .navbar-nav .nav-link.link-1.active {
+    color: #ff0000;
+}
+.float-navigation.fixed-top .navbar-nav .nav-link.link-2.active {
+    color: #1572b7;
+}
+.float-navigation.fixed-top .navbar-nav .nav-link.link-3.active {
+    color: #21b19b;
+}
+.float-navigation.fixed-top .navbar-nav .nav-link.link-4.active {
+    color: #e48e00;
+}
+
+
+section#about {
+    background-color: #000;
+}
+section#about .row {
+    height: 350px;
+}
+
+section#skills {
+    margin-top: -200px;
+}
+
+.progress-bars .progress {
     margin: 20px 0px;
     height: 2.5rem;
     font-size: 23px;
@@ -82,23 +111,39 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 0px;
 }
 
-.exp-img-list .exp-img {
-    margin: 5px 2.5px;
+.exp-img-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-  
-  
-  footer {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #242323;
-      color: #fff;
-      padding: 20px 15px;
-      z-index: 3;
-  }
-  footer p{
+.exp-img-list .exp-img {
+    margin: 2.5px;
+}
+
+
+
+div#proj-info {
+    padding-top: 40px;
+}
+
+section#contact {
+    padding-top: 0px;
+    margin-top: -60px;
+    background-color: #000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #242323;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 3;
+}
+footer p{
     margin-bottom: 0px;
-  }
+}
 
 
 
