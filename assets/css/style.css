@@ -2,7 +2,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Staatliches', cursive;
 }
 p, a {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: clamp(18px,2.5vw, 24px);
 }
 a {
@@ -39,6 +39,9 @@ section h2{
     font-size: 46px;
     margin-bottom: 0px;
 }
+.header-side .info-wrapper p {
+    font-family: 'Staatliches', cursive;
+}
 .header-side ul.social-media-links {
     list-style: none;
     padding-left: 0px;
@@ -57,7 +60,7 @@ section h2{
 }
 .main-container {
     padding-left: 200px;
-    background-color: #111111;
+    background-color: #262626;
     color:#fff;
 }
 .float-navigation.fixed-top {
@@ -115,14 +118,13 @@ section#skills {
     margin: 20px 0px;
     height: 2.5rem;
     font-size: 23px;
-    font-family: 'Bebas Neue';
+    font-family: 'Staatliches', cursive;
     border-radius: 0px;
 }
 
 .exp-img-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .exp-img-list .exp-img {
     margin: 2.5px;
@@ -152,12 +154,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #242323;
+    background-color: #626262;
     color: #fff;
     padding: 10px 15px;
     z-index: 3;
 }
 footer p{
+    font-family: 'Staatliches', cursive;
     margin-bottom: 0px;
 }
 
