@@ -158,7 +158,20 @@
                 
                 
                 <div id="proj-info">
-                  
+                  <div class="row">
+                    <div id="proj-info-container" class="col-sm-4 info-container">
+                        
+                    </div>
+                    <div class="col-sm-4 desktop-container">
+                        <p>Desktop:</p>
+                        <img src="" class="img-fluid desktop-img" alt="" />
+                    </div>
+                    <div class="col-sm-4 mobile-container">
+                        <p>Mobile:</p>
+                        <img src="" class="img-fluid mobile-img" alt="" />
+                    </div>
+                </div>
+                
                 </div>
 
               </div>
@@ -213,7 +226,7 @@
           var xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("proj-info").innerHTML = this.responseText;
+            document.getElementById("proj-info-container").innerHTML = this.responseText;
             }
           };
           xhttp.open("GET", "./data/experiences/"+projName+"/info.txt", true);
