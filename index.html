@@ -17,6 +17,9 @@
     <!-- Styles -->
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/responsive.css" rel="stylesheet">
+    <!--Lightbox-->
+    <link href="./assets/css/lightbox.css" rel="stylesheet">
+    
 
     <title>Hello, world!</title>
   </head>
@@ -29,9 +32,9 @@
             <h1>Janfred Magnaye</h1>
             <p><small>Front-End Web Developer</small></p>
             <ul class="social-media-links">
-              <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
-              <li><a href="https://github.com/janfredmagnaye"><span class="fab fa-github"></span></a></li>
-              <li><a href="mailto:janfredmagnaye@yahoo.com"><span class="fas fa-envelope"></span></a></li>
+              <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+              <li><a href="https://github.com/janfredmagnaye" target="_blank"><span class="fab fa-github"></span></a></li>
+              <li><a href="mailto:janfredmagnaye@yahoo.com" target="_blank"><span class="fas fa-envelope"></span></a></li>
             </ul>
           </div>
         </div>
@@ -43,7 +46,7 @@
                 <li><a class="nav-link link-1" href="#about">About</a></li>
                 <li><a class="nav-link link-2" href="#skills">Skills</a></li>
                 <li><a class="nav-link link-3" href="#experience">Portfolio</a></li>
-                <li><a class="nav-link link-4" href="#contact">Contact</a></li>
+                <!-- <li><a class="nav-link link-4" href="#contact">Contact</a></li> -->
             </nav>
         </div>
         <section class="about-container" id="about">
@@ -136,7 +139,10 @@
               <div class="col-md-12 content-wrap">
                 <h3>Front-End Developer | OptimizeX Inc. | 2018-Present</h3>
                 <div class="exp-img-list">
-                  <img src="./assets/images/AIMS.png" class="exp-img" id="AIMS" />
+                  <!--AIMS-->
+                  <a href="./data/experiences/AIMS/Home Page Desktop.png" data-lightbox="AIMS" data-title="AIMS | Homepage Desktop | WordPress"><img src="./assets/images/AIMS.png" class="exp-img" id="AIMS" /></a>
+                  <a href="./data/experiences/AIMS/Home Page Mobile.png" data-lightbox="AIMS" data-title="AIMS | Homepage Mobile | WordPress" class="d-none"></a>
+
                   <img src="./assets/images/AsmithMD.png" class="exp-img" id="AsmithMD" />
                   <img src="./assets/images/ClayDawgs.png" class="exp-img" id="ClayDawgs" />
                   <img src="./assets/images/Crexendo.png" class="exp-img" id="Crexendo" />
@@ -155,31 +161,13 @@
                   <img src="./assets/images/Valtac.png" class="exp-img" id="Valtac" />
                   <img src="./assets/images/Westech.png" class="exp-img" id="Westech" />
                 </div>
-                
-                
-                <div id="proj-info">
-                  <div class="row">
-                    <div id="proj-info-container" class="col-sm-4 info-container">
-                        
-                    </div>
-                    <div class="col-sm-4 desktop-container">
-                        <p>Desktop:</p>
-                        <img src="" class="img-fluid desktop-img" alt="" />
-                    </div>
-                    <div class="col-sm-4 mobile-container">
-                        <p>Mobile:</p>
-                        <img src="" class="img-fluid mobile-img" alt="" />
-                    </div>
-                </div>
-                
-                </div>
 
               </div>
             </div>
           </div>
         </section>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#" fill-opacity="1" d="M0,224L40,202.7C80,181,160,139,240,144C320,149,400,203,480,202.7C560,203,640,149,720,117.3C800,85,880,75,960,90.7C1040,107,1120,149,1200,160C1280,171,1360,149,1400,138.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#" fill-opacity="1" d="M0,224L40,202.7C80,181,160,139,240,144C320,149,400,203,480,202.7C560,203,640,149,720,117.3C800,85,880,75,960,90.7C1040,107,1120,149,1200,160C1280,171,1360,149,1400,138.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
         <section class="contact-container" id="contact">
           <div class="container">
             <div class="row">
@@ -189,7 +177,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
       
       <footer>
@@ -211,6 +199,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Lightbox JS -->
+    <script src="./assets/js/lightbox.js"></script>
     <script>
       $( document ).ready(function() {
         $(".navbar-nav .nav-link").click(function() {
@@ -221,20 +211,25 @@
         });
       });
       
-      $(".exp-img").click(function() {
-          var projName =  $(this).attr('id');
-          var xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("proj-info-container").innerHTML = this.responseText;
-            }
-          };
-          xhttp.open("GET", "./data/experiences/"+projName+"/info.txt", true);
-          xhttp.send();
-          $('html, body').animate({
-              scrollTop: $('#proj-info').offset().top
-          }, 1000);
-        });
+      lightbox.option({
+        'fitImagesInViewport': false,
+        'maxWidth': 800
+      });
+
+      // $(".exp-img").click(function() {
+      //     var projName =  $(this).attr('id');
+      //     var xhttp = new XMLHttpRequest();
+      //     xhttp.onreadystatechange = function() {
+      //       if (this.readyState == 4 && this.status == 200) {
+      //       document.getElementById("proj-info-container").innerHTML = this.responseText;
+      //       }
+      //     };
+      //     xhttp.open("GET", "./data/experiences/"+projName+"/info.txt", true);
+      //     xhttp.send();
+      //     $('html, body').animate({
+      //         scrollTop: $('#proj-info').offset().top
+      //     }, 1000);
+      //   });
     </script>
     
   </body>

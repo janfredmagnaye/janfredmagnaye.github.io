@@ -1,3 +1,6 @@
+body{
+    background-color: #262626;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Staatliches', cursive;
 }
@@ -17,7 +20,7 @@ section {
     padding: 120px 0px;
 }
 section h2{
-    font-size: clamp(70px, 2.5vh, 40px);
+    font-size: clamp(70px, 2.5vh, 30px);
 }
 .main .container {
     max-width: 1550px;
@@ -130,18 +133,16 @@ section#skills {
     margin: 2.5px;
 }
 
-
-
 div#proj-info {
     padding-top: 120px;
 }
 div#proj-info .cms {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Staatliches', cursive;
     font-size: clamp(20px,2.5vw, 24px);
     color: #21b19b;
 }
 div#proj-info ul li {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Staatliches', cursive;
     font-size: clamp(18px,2.5vw, 24px);
 }
 section#contact {
