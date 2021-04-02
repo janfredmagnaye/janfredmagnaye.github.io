@@ -1,4 +1,0 @@
-<h3>Advanced Image Med Spa</h3>
-<p><span class="cms">WordPress <i class="fab fa-wordpress"></i></span></p>
-<p><a href="//www.advancedimagemedspa.com/" target="_blank">www.advancedimagemedspa.com</a></p>
-<h4>Sample Screenshots:</h4>
